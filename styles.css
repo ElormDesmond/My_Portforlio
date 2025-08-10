@@ -287,11 +287,12 @@ footer {
 
 /* Featured Projects Custom Styles */
 .featured-project-card {
-    background-color: #27c93f;
+    background: linear-gradient(135deg, #1a1a1a 60%, #27c93f 100%);
     color: #fff;
-    border-radius: 8px;
+    border-radius: 12px;
     border: none;
-    box-shadow: 0 4px 16px rgba(39, 201, 63, 0.15);
+    box-shadow: 0 4px 24px rgba(39, 201, 63, 0.18);
+    transition: box-shadow 0.3s, transform 0.3s;
 }
 .featured-project-card .card-title,
 .featured-project-card .card-text {
@@ -301,17 +302,33 @@ footer {
     background-color: #fff;
     color: #27c93f;
     border: 1px solid #27c93f;
+    font-weight: 600;
+    margin-right: 4px;
 }
 .featured-project-btn {
     background-color: #0a0a0a;
     color: #27c93f;
     border: 2px solid #27c93f;
-    transition: background 0.3s, color 0.3s;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(39, 201, 63, 0.12);
 }
 .featured-project-btn:hover {
     background-color: #27c93f;
     color: #0a0a0a;
     border: 2px solid #0a0a0a;
+    box-shadow: 0 4px 16px rgba(39, 201, 63, 0.18);
+}
+
+/* Modern Effects for Portfolio */
+.zoom-effect {
+    transition: transform 0.3s, filter 0.3s;
+}
+.zoom-effect:hover {
+    transform: scale(1.05);
+    filter: blur(0px) brightness(1.1);
+    box-shadow: 0 8px 32px rgba(39, 201, 63, 0.25);
 }
 
 @keyframes typing {
