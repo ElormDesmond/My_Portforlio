@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desmond Elorm Honu | IT & Cybersecurity Portfolio</title>
+    <title>Desmond Elorm Honu | Cybersecurity Specialist & Web Developer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="bg-dark text-white">
-    <nav class="navbar navbar-expand-lg bg-black shadow-lg py-3">
-        <div class="container-fluid">
-            <a class="navbar-brand text-success text-2xl font-bold" href="#home"><i class="fas fa-shield-alt"></i> Desmond's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top modern-nav shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-terminal me-2"></i>DESMOND HONU
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,50 +51,93 @@
         <h2 class="text-success text-center mb-4">About Me</h2>
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
-                <p class="lead">I'm an IT & Cybersecurity Professional with a <span class="text-success">Bachelor's degree in Information Technology</span> and a <span class="text-success">Diploma in Communication (Public Relations)</span> from Academic City University and University of Professional Studies, Accra. I have a proven track record in vulnerability assessment, platform migration, web development, and technical curriculum development. Runner-up in Cyberteq CTF and Google Code Wars. I am passionate about building secure, user-friendly solutions and helping others present themselves online.</p>
+                <p class="lead">Aspiring <span class="text-success">Cybersecurity Specialist & Web Developer</span> with hands-on experience in vulnerability automation, web development, and cybersecurity education. Skilled in building secure, scalable digital solutions and teaching technical concepts to diverse learners. Recognized in academic competitions including <span class="text-success">Cyberteq CTF (Runner-up)</span> and <span class="text-success">Google Code Wars (Runner-up)</span>. Passionate about leveraging technology for real-world impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience container py-5">
+        <h2 class="text-success text-center mb-4">Professional Experience</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 bg-dark border-success">
+                    <div class="card-body">
+                        <h4 class="card-title text-success"><i class="fas fa-briefcase me-2"></i>Intern</h4>
+                        <h5 class="card-subtitle mb-2 text-white-50">Chevera Company LTD</h5>
+                        <p class="text-white-50 small">May 2022 - Aug 2024</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Developed and deployed a complete company website using HTML, CSS, and JavaScript</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Conducted cross-browser testing and performance optimization (WCAG-aligned)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Led platform migration and resolved technical issues</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 bg-dark border-success">
+                    <div class="card-body">
+                        <h4 class="card-title text-success"><i class="fas fa-chalkboard-teacher me-2"></i>Technical Curriculum Developer & STEM Facilitator</h4>
+                        <h5 class="card-subtitle mb-2 text-white-50">Nyansapo Institute</h5>
+                        <p class="text-white-50 small">May 2025 - Aug 2025</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Developed engaging Cybersecurity lesson plans for Nyansapo Summer STEM Program</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Taught Design Thinking and Game Development with Python</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Introduced core programming concepts and helped students build interactive games</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="skills" class="skills container py-5">
-        <h2 class="text-success text-center mb-4">Technical & Soft Skills</h2>
+        <h2 class="text-success text-center mb-4">Technical Skills</h2>
         <div class="row g-4">
-            <div class="col-md-4">
-                <div class="bg-black/80 rounded-lg p-4 shadow">
-                    <h3 class="text-success mb-3"><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="col-md-3">
+                <div class="skill-card bg-dark border-success p-4 rounded shadow">
+                    <h3 class="text-success mb-3"><i class="fas fa-code"></i> Programming</h3>
                     <ul class="list-unstyled">
-                        <li>Python</li>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bash Script</li>
-                        <li>Lua</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Python</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>JavaScript</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>HTML/CSS</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Bash</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Lua</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Node.js</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="bg-black/80 rounded-lg p-4 shadow">
-                    <h3 class="text-success mb-3"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+            <div class="col-md-3">
+                <div class="skill-card bg-dark border-success p-4 rounded shadow">
+                    <h3 class="text-success mb-3"><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
                     <ul class="list-unstyled">
-                        <li>Linux OS</li>
-                        <li>Nmap</li>
-                        <li>Docker</li>
-                        <li>Git/GitHub</li>
-                        <li>WordPress</li>
-                        <li>NginX</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Linux</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Nmap</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Nikto</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Nessus</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Docker</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="bg-black/80 rounded-lg p-4 shadow">
-                    <h3 class="text-success mb-3"><i class="fas fa-user-check"></i> Soft Skills</h3>
+            <div class="col-md-3">
+                <div class="skill-card bg-dark border-success p-4 rounded shadow">
+                    <h3 class="text-success mb-3"><i class="fas fa-cloud"></i> Web & Cloud</h3>
                     <ul class="list-unstyled">
-                        <li>Critical Thinking</li>
-                        <li>Analysis</li>
-                        <li>Communication</li>
-                        <li>Teamwork</li>
-                        <li>Problem Solving</li>
-                        <li>Attention to Detail</li>
-                        <li>Adaptability</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Git/GitHub</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>WordPress</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Nginx</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>SEO</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Google Analytics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="skill-card bg-dark border-success p-4 rounded shadow">
+                    <h3 class="text-success mb-3"><i class="fas fa-language"></i> Languages</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>English (Fluent)</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Twi (Native)</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Ewe (Native)</li>
+                        <li><i class="fas fa-chevron-right text-success me-2"></i>Japanese (Basic)</li>
                     </ul>
                 </div>
             </div>
@@ -112,7 +159,7 @@
                             <span class="badge">Nessus</span>
                             <span class="badge">Matplotlib</span>
                         </div>
-                        <a href="https://github.com/ElormDesmond/VulnScout" class="btn featured-project-btn" target="_blank">View Project</a>
+                        <a href="https://github.com/DesmondElorm/vulnscout.git" class="btn featured-project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
@@ -120,13 +167,13 @@
                 <div class="card h-100 featured-project-card zoom-effect">
                     <div class="card-body">
                         <h3 class="card-title">E-Commerce Website – Chevera Company LTD</h3>
-                        <p class="card-text">Comprehensive e-commerce website for Chevera Company LTD, enhancing online shopping experience using JavaScript, HTML, and CSS.</p>
+                        <p class="card-text">Comprehensive e-commerce website for Chevera Company LTD, enhancing online shopping experience using JavaScript, HTML, and CSS. <span class="text-warning">(Still building and updating)</span></p>
                         <div class="mb-2">
                             <span class="badge">JavaScript</span>
                             <span class="badge">HTML</span>
                             <span class="badge">CSS</span>
                         </div>
-                        <a href="https://elormdesmond.github.io/CheVera-Project/" class="btn featured-project-btn" target="_blank">View Project</a>
+                        <a href="https://elormdesmond.github.io/C-c-w/" class="btn featured-project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
@@ -148,30 +195,59 @@
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 featured-project-card zoom-effect">
                     <div class="card-body">
-                        <h3 class="card-title">Bakery Website (In Progress)</h3>
-                        <p class="card-text">Currently building a modern, responsive website for a bakery, focusing on user experience, online ordering, and branding.</p>
+                        <h3 class="card-title">Broll Bakery Website</h3>
+                        <p class="card-text">Created a custom website for a bakery to boost client engagement and online presence with modern design and user-friendly navigation.</p>
                         <div class="mb-2">
                             <span class="badge">HTML</span>
                             <span class="badge">CSS</span>
                             <span class="badge">JavaScript</span>
                             <span class="badge">UI/UX</span>
                         </div>
-                        <a href="#" class="btn featured-project-btn disabled" tabindex="-1" aria-disabled="true">Coming Soon</a>
+                        <a href="https://elormdesmond.github.io/Broll-bakery/" class="btn featured-project-btn" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 featured-project-card zoom-effect">
                     <div class="card-body">
-                        <h3 class="card-title">Portfolio Builder Service</h3>
-                        <p class="card-text">I build custom portfolios for individuals and companies, helping them showcase their skills and achievements online.</p>
+                        <h3 class="card-title">Chevera Portfolio Website</h3>
+                        <p class="card-text">Professional portfolio website for Chevera Company showcasing their services, projects, and brand identity with a modern and elegant design.</p>
                         <div class="mb-2">
-                            <span class="badge">Web Design</span>
                             <span class="badge">HTML</span>
                             <span class="badge">CSS</span>
-                            <span class="badge">Branding</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Responsive Design</span>
                         </div>
-                        <a href="#contact" class="btn featured-project-btn">Request Portfolio</a>
+                        <a href="https://elormdesmond.github.io/CheVera-Portfolio/" class="btn featured-project-btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications container py-5">
+        <h2 class="text-success text-center mb-4">Certifications & Awards</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 bg-dark border-success">
+                    <div class="card-body">
+                        <h4 class="card-title text-success"><i class="fas fa-certificate me-2"></i>Certifications</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>ISC2 Candidate (ISCA Pre-Assessment)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Google Cybersecurity Certificate</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>IBM Cybersecurity Careers Certificate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 bg-dark border-success">
+                    <div class="card-body">
+                        <h4 class="card-title text-success"><i class="fas fa-trophy me-2"></i>Awards</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-medal text-success me-2"></i>Cyberteq Capture The Flag – Runner Up</li>
+                            <li><i class="fas fa-medal text-success me-2"></i>Google Code Wars – Runner Up</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -182,46 +258,69 @@
         <h2 class="text-success text-center mb-4">Professional Documents</h2>
         <div class="row g-4 justify-content-center">
             <div class="col-md-4">
-                <a href="https://docs.google.com/document/d/1XMKcBJVhX7lRtI20CQHNwdzZwKcHvYYW/edit?usp=sharing&ouid=112221146844113384141&rtpof=true&sd=true" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4">
-                    <i class="fas fa-file-alt fa-2x mb-3 text-success"></i>
+                <a href="https://docs.google.com/document/d/1VpdOFJeIhLtFcNIGjse7wlDiEAlxjRos2ZWUpqmlu38/edit?usp=sharing" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4 text-decoration-none">
+                    <i class="fas fa-file-alt fa-3x mb-3 text-success"></i>
                     <h3 class="mb-2">CV</h3>
-                    <p class="mb-0">Download my latest CV</p>
-                    <span class="d-block mt-2"><a href="https://docs.google.com/document/d/1XMKcBJVhX7lRtI20CQHNwdzZwKcHvYYW/edit?usp=sharing&ouid=112221146844113384141&rtpof=true&sd=true" target="_blank" class="btn btn-success">Download CV</a></span>
+                    <p class="mb-0">View my Curriculum Vitae</p>
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://docs.google.com/document/d/1ou6V-D9idpLUn3MVcOc1XNuPv3NnqwHO60AD5HHSxSg/edit?usp=sharing" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4">
-                    <i class="fas fa-file-contract fa-2x mb-3 text-success"></i>
+                <a href="https://docs.google.com/document/d/1pgUwd3ME7XdIQ17jiuHutqo6Z_hlR3XdI-_8I6Wa1QY/edit?usp=sharing" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4 text-decoration-none">
+                    <i class="fas fa-file-contract fa-3x mb-3 text-success"></i>
                     <h3 class="mb-2">Resume</h3>
-                    <p class="mb-0">Download my professional resume</p>
-                    <span class="d-block mt-2"><a href="https://docs.google.com/document/d/1ou6V-D9idpLUn3MVcOc1XNuPv3NnqwHO60AD5HHSxSg/edit?usp=sharing" target="_blank" class="btn btn-success">Download Resume</a></span>
+                    <p class="mb-0">View my professional resume</p>
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="https://docs.google.com/document/d/1n-IfcPqCltL0P5IFGGJV1arHAkKAhePX/edit?usp=sharing&ouid=112221146844113384141&rtpof=true&sd=true" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4">
-                    <i class="fas fa-file-signature fa-2x mb-3 text-success"></i>
+                <a href="https://docs.google.com/document/d/1n-IfcPqCltL0P5IFGGJV1arHAkKAhePX/edit?usp=sharing&ouid=112221146844113384141&rtpof=true&sd=true" target="_blank" class="document-card card bg-black text-white shadow zoom-effect text-center p-4 text-decoration-none">
+                    <i class="fas fa-file-signature fa-3x mb-3 text-success"></i>
                     <h3 class="mb-2">Cover Letter</h3>
-                    <p class="mb-0">Download my cover letter</p>
-                    <span class="d-block mt-2"><a href="https://docs.google.com/document/d/1n-IfcPqCltL0P5IFGGJV1arHAkKAhePX/edit?usp=sharing&ouid=112221146844113384141&rtpof=true&sd=true" target="_blank" class="btn btn-success">Download Cover Letter</a></span>
+                    <p class="mb-0">View my cover letter</p>
                 </a>
             </div>
         </div>
     </section>
 
     <section id="contact" class="contact container py-5">
-        <h2 class="text-success text-center mb-4">Contact</h2>
-        <div class="contact-content row justify-content-center text-center">
-            <div class="contact-info col-12 flex flex-col items-center gap-4">
-                <a href="mailto:desmondhonu123@gmail.com" class="contact-item d-block mb-2"><i class="fas fa-envelope"></i> <span>Email</span></a>
-                <a href="https://www.linkedin.com/in/desmond-honu" class="contact-item d-block mb-2"><i class="fab fa-linkedin"></i> <span>LinkedIn</span></a>
-                <a href="tel:+233536317508" class="contact-item d-block mb-2"><i class="fas fa-phone"></i> <span>+233 536317508</span></a>
-                <a href="https://github.com/ElormDesmond" class="contact-item d-block mb-2"><i class="fab fa-github"></i> <span>GitHub</span></a>
+        <h2 class="text-success text-center mb-4">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-grid row g-3">
+                    <div class="col-md-6">
+                        <a href="mailto:desmondhonu123@gmail.com" class="contact-card card bg-dark border-success text-white p-4 text-center zoom-effect text-decoration-none">
+                            <i class="fas fa-envelope fa-2x text-success mb-2"></i>
+                            <h5>Email</h5>
+                            <p class="mb-0 small">desmondhonu123@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="tel:+233536317508" class="contact-card card bg-dark border-success text-white p-4 text-center zoom-effect text-decoration-none">
+                            <i class="fas fa-phone fa-2x text-success mb-2"></i>
+                            <h5>Phone</h5>
+                            <p class="mb-0 small">+233 536317508</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://www.linkedin.com/in/desmond-honu" target="_blank" class="contact-card card bg-dark border-success text-white p-4 text-center zoom-effect text-decoration-none">
+                            <i class="fab fa-linkedin fa-2x text-success mb-2"></i>
+                            <h5>LinkedIn</h5>
+                            <p class="mb-0 small">Connect with me</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://github.com/ElormDesmond" target="_blank" class="contact-card card bg-dark border-success text-white p-4 text-center zoom-effect text-decoration-none">
+                            <i class="fab fa-github fa-2x text-success mb-2"></i>
+                            <h5>GitHub</h5>
+                            <p class="mb-0 small">Check out my code</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-black text-success text-center py-4 mt-5">
-        <p>&copy; 2024 Desmond Elorm Honu. All rights reserved.</p>
+    <footer class="bg-black text-center py-4 border-top border-success">
+        <p class="text-white mb-0">&copy; 2024 Desmond Elorm Honu. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
